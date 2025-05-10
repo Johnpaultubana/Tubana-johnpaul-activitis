@@ -1,0 +1,70 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+    color: #2980b9;
+}
+
+/* Centered Box */
+.container {
+    max-width: 600px;
+    background: blue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 26px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Unique Colors for Each Page */
+.one h1 { color:red; }
+.two h1 { color: limegreen; }
+.three h1 { color: lightpink; }
+.four h1 { color: orange}
+.five h1 { color: yellow; }
+
